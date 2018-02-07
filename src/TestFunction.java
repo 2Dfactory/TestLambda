@@ -13,6 +13,7 @@ public class TestFunction {
 				new Personne(30,"Tata"),
 				new Personne(40,"Tutu"));
 		
+		//redéfinition de la méthode de l'interface fonctionnelle Function<T, U>
 		Function<Personne, String> f1 = (Personne p) -> p.getNom();
 		Function<Personne, Integer> f2 = (Personne p) -> p.getAge() * 2;
 		
