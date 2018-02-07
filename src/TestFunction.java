@@ -41,7 +41,7 @@ public class TestFunction {
 		List<Integer> ls = new ArrayList<>();
 		
 		for(Personne p : list){
-			//func.apply(p) retournera ici l'age de l'objet Personne
+			//func.apply(p) retournera ici l'age de l'objet Personne multiplié par 2 (voir la redéfinition de la méthode de l'interface)
 			ls.add(func.apply(p));
 		}
 		
